@@ -50,4 +50,4 @@ npm run build --report
  - Google 드라이브, Dropbox 및 GitHub를 사용한 온라인 동기화
  - 클릭 한 번으로 Blogger, Dropbox, Gist, GitHub, Google 드라이브, WordPress, Zendesk에 게시
 
-> **주의:** 이 페이지는 다음 주소 작성 및 게시되었습니다. [StackEdit](https://stackedit.io/ "StackEdit").
+> **주의:** 이 페이지는 다음 주소에서 작성 및 게시되었습니다. [StackEdit](https://stackedit.io/ "StackEdit").
