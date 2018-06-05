@@ -9,11 +9,7 @@ const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const s3Client = new AWS.S3();
 
 const cb = (resolve, reject) => (err, res) => {
-  if (err) {
-    reject(err);
-  } else {
-    resolve(res);
-  }
+  err ? reject(err) : resolve(res);
 };
 
 exports.getUser = id => new Promise((resolve, reject) => {
