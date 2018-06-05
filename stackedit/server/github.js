@@ -16,11 +16,7 @@ function githubToken(clientId, code) {
         reject(err);
       }
       const token = qs.parse(body).access_token;
-      if (token) {
-        resolve(token);
-      } else {
-        reject(res.statusCode);
-      }
+      token ? resolve(token) : reject(res.statusCode);
     });
   });
 }
