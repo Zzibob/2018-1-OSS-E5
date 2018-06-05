@@ -7,4 +7,9 @@
   - http://54.165.130.176/wordpress/
 
 ### Project
-  - Wordpress/Stackedit ( https://github.com/benweet/stackedit )
+  - Wordpress/Stackedit ( https://github.com/benweet/stackedit)
+
+### Members
+  - 김락원(Kim Lak Won) KimLakWon
+  - 이승윤(Lee Seung Yun) Zzibob
+  - 안낙균(An Nak Kyun) annakky 
