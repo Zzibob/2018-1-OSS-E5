@@ -6,7 +6,7 @@
 
 https://stackedit.io/
 
-### 새로운 기능!!! 어떤 웹 사이트에서든지 사용가능한 StackEdit(더미편집)!
+### 새로운 기능!!! 어떤 웹 사이트에서든지 사용가능한 StackEdit(다량편집)!
 
 보러가기 https://github.com/benweet/stackedit.js
 
@@ -28,7 +28,7 @@ npm run build
 npm run build --report
 ```
 
-### StackEdit(더미편집)의 기능:
+### StackEdit(다량편집)의 기능:
 
  - 온라인이나 오프라인으로 여러 마크다운 파일 관리
  - 마크다운, HTML, PDF, Word, EPUB 등의 파일 내보내기
