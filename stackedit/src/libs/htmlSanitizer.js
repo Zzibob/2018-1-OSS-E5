@@ -285,8 +285,7 @@ function htmlParser(html, handler) {
   function parseEndTag(tag, tagName) {
     var pos = 0,
       i;
-    tagName = tagName && tagName.toLowerCase();
-    if (tagName) {
+    if (tagName = (tagName && tagName.toLowerCase())) {
       // Find the closest opened tag of the same type
       for (pos = stack.length - 1; pos >= 0; pos--) {
         if (stack[pos] == tagName) break;
