@@ -767,11 +767,7 @@ commandProto.doLinkOrImage = function (chunk, postProcessing, isImage) {
         chunk.endTag = "](" + properlyEncoded(link) + ")";
 
         if (!chunk.selection) {
-          if (isImage) {
-            chunk.selection = that.getString("imagedescription");
-          } else {
-            chunk.selection = that.getString("linkdescription");
-          }
+          chunk.selection = isImage ? that.getString("imagedescription") : that.getString("linkdescription");
         }
       }
       postProcessing();
