@@ -267,9 +267,7 @@ function htmlParser(html, handler) {
       parseEndTag("", tagName);
     }
 
-    unary = voidElements[tagName] || !!unary;
-
-    if (!unary) {
+    if (!(unary = voidElements[tagName] || !!unary)) {
       stack.push(tagName);
     }
 
