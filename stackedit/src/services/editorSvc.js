@@ -131,7 +131,8 @@ const editorSvc = Object.assign(new Vue(), editorSvcDiscussions, editorSvcUtils,
     let previewHtml = '';
     let loadingImages = [];
     this.conversionCtx.htmlSectionDiff.forEach((item) => {
-      for (let i = 0; i < item[1].length; i += 1) {
+      var length = item[1].length
+      for (let i = 0; i < length; i += 1) {
         const section = this.conversionCtx.sectionList[sectionIdx];
         if (item[0] === 0) {
           let sectionDesc = this.previewCtx.sectionDescList[sectionDescIdx];
