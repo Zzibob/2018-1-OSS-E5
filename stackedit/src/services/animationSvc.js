@@ -7,7 +7,8 @@ const easings = {
 };
 
 const vendors = ['moz', 'webkit'];
-for (let x = 0; x < vendors.length && !window.requestAnimationFrame; x += 1) {
+var length = vendors.length;
+for (let x = 0; x < length && !window.requestAnimationFrame; x += 1) {
   window.requestAnimationFrame = window[`${vendors[x]}RequestAnimationFrame`];
   window.cancelAnimationFrame = window[`${vendors[x]}CancelAnimationFrame`] ||
     window[`${vendors[x]}CancelRequestAnimationFrame`];
