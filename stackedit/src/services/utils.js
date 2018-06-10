@@ -125,7 +125,8 @@ export default {
   hash(str) {
     let hash = 0;
     if (!str) return hash;
-    for (let i = 0; i < str.length; i += 1) {
+    var length = str.length;
+    for (let i = 0; i < length; i += 1) {
       const char = str.charCodeAt(i);
       hash = ((hash << 5) - hash) + char; // eslint-disable-line no-bitwise
       hash |= 0; // eslint-disable-line no-bitwise
