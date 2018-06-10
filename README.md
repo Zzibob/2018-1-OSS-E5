@@ -1,13 +1,13 @@
 # 2018-1-OSS-E5
 
 ### Wiki
-  - https://github.com/18-1-SKKU-OSS/2018-1-OSS-E5/wiki
+  - [2018-1-OSS-E5 위키 사이트](https://github.com/18-1-SKKU-OSS/2018-1-OSS-E5/wiki)
   
 ### Static Page
-  - http://54.165.130.176/wordpress/
+  - [2018-1-OSS-E5 워드프레스 사이트](http://54.165.130.176/wordpress/)
 
 ### Project
-  - Wordpress/Stackedit ( https://github.com/benweet/stackedit)
+  - [Wordpress/Stackedit](https://github.com/benweet/stackedit)
 
 ### Members
   - 김락원(Kim Lak Won) KimLakWon
