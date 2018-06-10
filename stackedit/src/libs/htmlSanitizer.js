@@ -128,7 +128,8 @@ function makeMap(str, lowercaseKeys) {
   var obj = {},
     items = str.split(','),
     i;
-  for (i = 0; i < items.length; i++) {
+  var length = items.length
+  for (i = 0; i < length; i++) {
     obj[lowercaseKeys ? items[i].toLowerCase() : items[i]] = true;
   }
   return obj;
