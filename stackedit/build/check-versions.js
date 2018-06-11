@@ -24,7 +24,8 @@ if (shell.which('npm')) {
 
 module.exports = function () {
   var warnings = []
-  for (var i = 0; i < versionRequirements.length; i++) {
+  var length = versionRequirements.length;
+  for (var i = 0; i < length; i++) {
     var mod = versionRequirements[i]
     if (!semver.satisfies(mod.currentVersion, mod.versionRequirement)) {
       warnings.push(mod.name + ': ' +
@@ -38,7 +39,8 @@ module.exports = function () {
     console.log('')
     console.log(chalk.yellow('To use this template, you must update following to modules:'))
     console.log()
-    for (var i = 0; i < warnings.length; i++) {
+    var length = warnings.length;
+    for (var i = 0; i < length; i++) {
       var warning = warnings[i]
       console.log('  ' + warning)
     }
