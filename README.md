@@ -23,4 +23,5 @@
 2. 코드 최적화 작업
 - if else 문 => 삼항 연산자
 - for문 참조 횟수 줄이기
-- 등등
+- # scope와 지역변수를 활용하여 탐색시간을 줄이는 방법 #
+![ex_screenshot](https://github.com/18-1-SKKU-OSS/2018-1-OSS-E5/blob/master/Image/xc.PNG)
