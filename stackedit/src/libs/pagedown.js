@@ -646,7 +646,7 @@ commandProto.addLinkDef = function (chunk, linkDef) {
   var addDefNumber = function (def) {
     refNumber++;
     def = def.replace(/^[ ]{0,3}\[(\d+)\]:/, "  [" + refNumber + "]:");
-    defs += "\n" + def;
+    defs += defs + "\n" + def;
   };
 
   // note that
@@ -682,7 +682,7 @@ commandProto.addLinkDef = function (chunk, linkDef) {
     chunk.selection = chunk.selection.replace(/\n*$/, "");
   }
 
-  chunk.after += "\n\n" + defs;
+  chunk.after += chunk.after + "\n\n" + defs;
 
   return refOut;
 };
@@ -895,9 +895,9 @@ commandProto.doBlockquote = function (chunk) {
         good = inChain; // c) the line is not empty and does not start with ">", so it matches if and only if we're in the chain
       }
       if (good) {
-        match += line + "\n";
+        match += match + line + "\n";
       } else {
-        leftOver += match + line;
+        leftOver += leftOver + match + line;
         match = "\n";
       }
     }
