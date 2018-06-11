@@ -13,3 +13,14 @@
   - 김락원(Kim Lak Won) KimLakWon
   - 이승윤(Lee Seung Yun) Zzibob
   - 안낙균(An Nak Kyun) annakky 
+### 작업 내용
+1. 한글 번역 작업
+- README.md
+- Faq.md
+- CHANGELOG.md
+- welcomeFile.md
+
+2. 코드 최적화 작업
+- if else 문 => 삼항 연산자
+- for문 참조 횟수 줄이기
+- 등등
