@@ -14,9 +14,10 @@ export default {
     const setLastActivity = () => {
       this.lastActivity = Date.now();
     };
-    window.document.addEventListener('mousedown', setLastActivity);
-    window.document.addEventListener('keydown', setLastActivity);
-    window.document.addEventListener('touchstart', setLastActivity);
+    var wd = window.document;
+    wd.addEventListener('mousedown', setLastActivity);
+    wd.addEventListener('keydown', setLastActivity);
+    wd.addEventListener('touchstart', setLastActivity);
 
     // Keep track of the last window focus
     this.lastFocus = 0;
